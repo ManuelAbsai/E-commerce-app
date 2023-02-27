@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="/Css/PaginaReloj.css">
+    <title>Relojería</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+                           <!--    cabecera       -->
+
+<header class="container-fluid bg- position.sticky top-0" id="header">
+  <nav id="nav-bar">
+  
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <div class="logo">
+    <img
+      id="header-img"
+      src="https://cdn-icons-png.flaticon.com/512/1363/1363176.png"
+      alt="Reloj Logo"
+    />
+  </div>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" href="#Características">Características</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" href="#Conócenos">Conócenos</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" href="#Compra">Productos</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false"  href="#Carrito_De_Compra"">Carrito</a>
+  </li>
+  
+</ul>
+</nav>
+</header>
+
+
+
+<div class="tab-content" id="pills-tabContent">
+  
+  
+  <!--   Características  -->
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="1">
+
+
+  <section id="Características">
+    <div class="grid">
+      <!-- <div class="icon"></div> -->
+      <div class="desc">
+        <h2> Materiales de calidad </h2>
+        <p>
+          Nuestros relojes usas los mejores materiales, lo que incrementa su tiempo de vida.
+        </p>
+      </div>
+    </div>
+    
+    <div class="grid">
+      <!-- <div class="icon"></div> -->
+      <div class="desc">
+        <h2> Envío inmediato</h2>
+        <p>
+          Nos encargamos de que recibas tu producto lo mas pronto posible.
+        </p>
+      </div>
+    </div>
+    
+    <div class="grid">
+      <!-- <div class="icon"></div> -->
+      <div class="desc">
+        <h2> Garantía de calidad</h2>
+        <p>
+          Todos nuestros productos son inspeccionados para minuciosamente, para así entregarte la mejor calidad.
+        </p>
+      </div>
+    </div>
+  
+  </section>
+  </div>
+  
+
+
+
+  <!--  Conócenos  -->
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="2">
+    
+<section id="Conócenos">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zJ8MdMK1lIM" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; 
+    autoplay: clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</section>
+
+ <!-- Comentarios-->
+<section id="ConócenosComens">
+<div class="comentClass">
+  <!-- <div class="icon"></div> -->
+  <div class="level">Comentarios de ursuarios</div>
+    <ol id = "conócenosComentarios"></ol>
+    <li></li>
+</div>
+</section>
+
+ <!-- Correo-->
+ <section id="reloj-present">
+  <h2>Danos tu opinión</h2>
+  <form id="formCorreoUsuarioForm">
+    <input
+      name="email"
+      id="emailUsuario"
+      type="email"
+      placeholder="Ingresa tu correo electrónico"
+    />
+    <input id="correoUsuarioInput" type="button" value="Enviar" class="btn-primary btnCorreo" />
+  </form>
+  </section>
+  </div>
+
+  
+
+
+
+  <!--   Productos -->
+  <div class="tab-pane fade container" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="3">
+    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4" >
+      
+
+
+<div class="col d-flex justify-content-center-mb-4">
+        <div class="card" style="width: 18rem;" id="Digital">
+          <div class="card-body">
+            <h2 class="card-title pt-2 text-center" text-primary">Reloj Digital</h2>
+            <img src="https://horaexacta.com/eshop/995-large_default/reloj-casio-collection-digital-negro-resina-w-59-1vqes.jpg" class="card-img-top" alt="...">
+            <h5 class="text-center">$600</h5>
+            <p class="card-text">Un reloj practico y facil de usar, perfecto para toda ocasión </p>
+            <ol class="description">
+              <li>Resistente al agua.</li>
+              <li>Correa de goma de silicona.</li>
+              <li>Batería con duracíon de 5 años.</li>
+              <li>Iluminación LED.</li>
+            </ol>
+            <div class="d-grid gap-2">
+            <button href="#" id="0" class="btn btn-primary btnProducto">Seleccionar</button>
+          </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="col d-flex justify-content-center-mb-4">
+        <div class="card" style="width: 18rem;" id="Formal">
+          <div class="card-body">
+            <h2 class="card-title pt-2 text-center">Reloj Formal</h2>
+            <img src="https://media.gq.com.mx/photos/5debbb06f428fa0008c86c0d/master/w_1600%2Cc_limit/Vestir_Baume.jpg" class="card-img-top" alt="...">
+            <h5 class="text-center">$900</h5>
+            <p class="card-text">Discreto y con un estilo único, ideal para eventos formales</p> 
+            <ol class="description">
+              <li>Resistente al agua.</li>
+              <li>Correa de cuero.</li>
+              <li>Ultra delgado.</li>
+              <li>Movimiento suizo.</li>
+            </ol>
+            <div class="d-grid gap-2">
+            <button href="#" id="1" class="btn btn-primary btnProducto">Seleccionar</button>
+          </div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="col d-flex justify-content-center-mb-4">
+        <div class="card" style="width: 18rem;" id="G-shock">
+          <div class="card-body">
+            <h2 class="card-title pt-2 text-center ">G-shock</h2>
+            <img src="https://www.laguardajoiers.com/media/catalog/product/cache/2/image/3c39554054c21533f2a8cc939c033642/g/w/gw-b5600bc-1ber.jpg" class="card-img-top" alt="...">
+            <h5 class="text-center">$1200</h5>
+            <p class="card-text">Resistente y duradero, ideal para el uso rudo</p>
+            <ol class="description">
+              <li>Resistente al agua.</li>
+              <li>Correa de resina</li>
+              <li>Iluminacion LED.</li>
+              <li>Movimiento de cuarzo.</li>
+            </ol>
+            <div class="d-grid gap-2">
+            <button href="#" id="2" class="btn btn-primary btnProducto">Seleccionar</button>
+          </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="col d-flex justify-content-center-mb-4">
+          <div class="card" style="width: 18rem;" id="relojBuceo">
+            <div class="card-body">
+              <h2 class="card-title pt-2 text-center ">Reloj de Buceo</h2>
+              <img src="https://derelojes.com/wp-content/plugins/aawp/public/image.php?url=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNDFxWkNNbGE3K0wuanBn" class="card-img-top" alt="...">
+              <h5 class="text-center">$1800</h5>
+              <p class="card-text">Resistente al agua, ideal para todas tus actividades bajo el agua.</p>
+              <ol class="description">
+                <li>Resistente al agua.</li>
+                <li>Correa de metal</li>
+                <li>Iluminacion LED.</li>
+                <li>Movimiento de cuarzo.</li>
+              </ol>
+              <div class="d-grid gap-2">
+              <button href="#" id="3" class="btn btn-primary btnProducto">Seleccionar</button>
+            </div>
+          </div>
+          </div>
+          </div>
+
+
+
+</div>
+</div>
+
+
+
+  <!--   Carrito -->
+
+  <div class="tab-pane fade carrito Carrito_De_Compra" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="4">
+
+    <br />
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Productos</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Cantidad</th>
+        </tr>
+      </thead>
+      <tbody id="listapago">
+      </tbody>
+
+    </table>
+<br><br>
+
+<div class="row mx-4Z">
+<div class="col">
+<h3 class="itemCartTotal" id="precioproductos"> Total: 0 </h3>
+</div>
+<div class="col d-flex justify-content-end">
+<button class="btn btn-success"> <a href="./pago.html" target="_blank" target="_blank"><span>COMPRAR</span></a> </button>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+<footer class="p-3 mt-5">
+  <ul>
+    <li><a href="#">Privacidad</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#">Terminos y condiciones</a></li>
+  </ul>
+  <span>Copyright 2022, MA relojes</span>
+</footer>
+
+
+
+<script src="/Js/ProyectoReloj.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/Js/Alertas.js"> </script>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
